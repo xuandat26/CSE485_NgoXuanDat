@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIỆN CÔNG NGHỆ THÔNG TIN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icon tab web -->
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="container-fluid">
+        <!-- banner -->
+        <div class="row" id="banner">
+            <div class="col-3 d-flex justify-content-end d-flex align-items-center">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="col px-1">
+                <img src="images/banner.png" alt="">
+            </div>
+        </div>
+    
+        <!-- Menu -->
+        <div class="row d-flex justify-content-center d-flex align-items-center" id="header-nav">
+            <div class="col"></div>
+            <!-- DROPDOWN List -->
+            <div class="col-6" id="dropdwn">
+                <nav>
+                  <ul>
+                    <li><a href="#">GIỚI THIỆU</a>
+                      <ul>
+                        <li><a href="#">Giới thiệu chung</a></li>
+                        <li><a href="#">Lãnh đạo các thời kỳ</a></li>
+                        <li><a href="#">Ban Lãnh đạo</a></li>
+                        <li><a href="#">Cơ cấu tổ chức</a></li>
+                        <li><a href="#">Chiến lược, tầm nhìn</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">TIN TỨC</a>
+                      <ul>
+                        <li><a href="#">Tin Viện Công nghệ thông tin</a>
+                          <ul>
+                            <li><a href="#">Đào tạo, hợp tác</a></li>
+                            <li><a href="#">Đoàn thể</a></li>
+                            <li><a href="#">Hoạt động chung</a></li>
+                            <li><a href="#">Công khai ngân sách</a></li> 
+                          </ul>
+                        </li>
+                        <li ><a href="#">Tin Viện Hàn lâm KH&CN Việt Nam</a></li>
+                        <li><a href="#">Tin ngành Công nghệ thông tin</a>
+                          <ul>
+                            <li><a href="#">Links</a></li>
+                            <li><a href="#">Works</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#">NGHIÊN CỨU</a>
+                      <ul>
+                        <li><a href="#">Đào tạo Nghiên cứu sinh</a></li>
+                        <li><a href="#">Tin học</a></li>
+                        <li><a href="#">Cơ sở toán học của CNTT</a></li>
+                        <li><a href="#">Tự động hóa</a></li>
+                        <li><a href="#">Đề tài</a>
+                          <ul>
+                            <li><a href="#">Đè tài cấp nhà nước</a></li>
+                            <li><a href="#">Đề tài NAFOSTED</a></li>
+                            <li><a href="#">Đề tài cấp Viện Hàn Lâm KH&CN</a></li>
+                            <li><a href="#">Đề tài cấp Viện CNTT</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="#">ỨNG DỤNG</a>
+                      <ul>
+                        <li><a href="#">Sản phẩm ứng dụng</a></li>
+                        <li><a href="#">Các hợp đồng đã triển khai</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">HỢP TÁC - ĐÀO TẠO</a>
+                      <ul>
+                        <li><a href="#">Các đối tác Hợp tác - Đào tạo</a></li>
+                        <li><a href="#">Định hướng đào tạo</a></li>
+                        <li><a href="#">Cơ sở đào tạo</a></li>
+                        <li><a href="#">Thông tin học bổng</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">TƯ VẤN</a>
+                      <ul>
+                        <li><a href="#">Tư vấn lập dự án đầu tư</a></li>
+                        <li><a href="#">Tư vấn quản lý dự án</a></li>
+                        <li><a href="#">Tư vấn đâu thầu về CNTT</a></li>
+                        <li><a href="#">Các hợp đồng đã triển khai</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">VĂN BẢN</a>
+                      <ul>
+                        <li><a href="#">Thông báo</a></li>
+                        <li><a href="#">Văn bản pháp quy</a></li>
+                        <li><a href="#">Tìm kiếm văn bản</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">THÔNG BÁO</a>
+                      <ul>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Văn bản</a></li>
+                      </ul>
+                    </li>  
+                  </ul>
+                </nav>
+            </div>
+
+            <!-- Search - Flag -->
+            <div class="col">
+                <form action="" id="search-box">
+                    <input type="text" id="search-text" placeholder="Nhập từ cần tìm" aria-label="Search">
+                    <button id="search-btn"><i class="bi bi-search"></i></button>
+                    <a href="" id="flag">
+                        <img src="images/flag_vi.png" alt=""><img class="flag-en" src="images/flag_en.png" alt="">
+                    </a> 
+                </form>
+            </div>
+
+            <div class="col"></div>
+        </div>
+        
+
+        <!-- NỘI DUNG -->
+        <div class="row">
+          <div class="col-2 bg-mycolor"></div>
+
+          <div class="col bg-white d-flex pt-2">
+
+              <!-- LAYER cột 1 -->
+            <div class="Main">
+              <!-- SlideShow -->
+              <div class="slideshow">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                      <img src="images/slide_1.gif" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>Chương trình Về nguồn 2018 - Bảo tàng Khởi nghĩa Bắc Sơn</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                      <img src="images/slide_2.gif" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>Chương trình về nguồn 2019 - Khu di tích Ngọc Trạo</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/slide_3.gif" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>Lãnh đạo Viện thăm và làm việc với Viện Khoa học và Công nghệ tiên tiến Hàn Quốc</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/slide_4.gif" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>Nữ cán bộ Viện CNTT hưởng ứng "Tuần lễ áo dài</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/slide_5.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <p>Viện CNTT đón tiếp và làm việc với Viện Hàn lâm Khoa học Trung Quốc-CAS</p>
+                      </div>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+                
+                  <!-- Main Post -->
+              <div class="col d-flex" id="main-1">
+                          <div class="col d-flex align-items-center px-2">
+                              <a class="main-link-1" href="">TIN VIỆN CÔNG NGHỆ THÔNG TIN</a>  
+                          </div>
+                          <div class="col d-flex align-items-center px-2">
+                              <a class="main-link-1" href="">TIN VIỆN HÀN LÂM KH&CN VIỆT NAM</a> 
+                          </div>
+              </div>
+              <div class="col d-flex" id="main-2">
+                          <div class="col px-2">
+                              <img src="images/post_1.jpg" alt="">
+                          </div>
+                          <div class="col px-2">
+                              <img src="images/post_2.jpg" alt="">
+                          </div>
+              </div>
+
+            
+            </div>
+
+
+            <!-- LAYER cột 2 -->
+            <div class="col-4">
+
+              <!-- Hộp tin -->
+              <div class="col bg-mycolor" id="new-box">
+                  <nav class="new-nav"> <i class="bi bi-megaphone-fill"></i><b> TIN TỨC SỰ KIỆN </b> <br>
+                              <br>
+                              <marquee onmouseover="this.stop()" direction="up" onmouseout="this.start()" Scroll scrollamount="5">
+                              <a class="new-nav-link" href="#"><i class="bi bi-caret-right-fill"></i>Học viện Khoa học và Công nghệ Thông báo tuyển sinh đào tạo trình độ Thạc sĩ, Tiến sĩ đợt 2 năm 2022</a>
+                              <hr>
+                              <a class="new-nav-link" href="#"><i class="bi bi-caret-right-fill"></i>Viện công nghệ thông tin vinh dự có thêm 2 Phó Giáo sư và 4 Tiến sĩ</a>
+                              <hr>
+                              <a class="new-nav-link" href="#"><i class="bi bi-caret-right-fill"></i>Đội bóng Viện Công nghệ thông tin giành cúp vô địch Giải bóng đá Viện Hàn lâm Khoa học và công nghệ Việt Nam khu vực phía Bắc năm 2022</a>
+                              <hr>
+                              <a class="new-nav-link" href="#"><i class="bi bi-caret-right-fill"></i>Thông báo về việc công bố công khai quyết toán ngân sách quý 1 năm 2022 của Viện Công nghệ thông tin</a>
+                              <hr>
+                              <a class="new-nav-link" href="#"><i class="bi bi-caret-right-fill"></i>Đại hội Chi đoàn Thanh niên Cộng sản Hồ Chí Minh Viện Công nghệ thông tin nhiệm kỳ 2022-2024</a>   
+                              </marquee>
+                              <br>
+                  </nav>
+              </div>
+
+                <!-- Title-1 -->
+              <div class="col bg-primary" id="title-1">
+                <i class="bi bi-calendar3"></i> LỊCH LÀM VIỆC
+              </div>
+                <!-- Main-3 -->
+              <nav class="col bg-mycolor ">
+                <ul class="main-3">
+                  <li><a class="main-link-2" href="">Giới thiệu về Viện</a></li><hr>
+                  <li><a class="main-link-2" href="">Lịch làm việc Viện Công nghệ thông tin</a></li>
+                </ul>
+              </nav>
+                <!-- Title-2 -->
+              <div class="col bg-primary" id="title-2">
+                <i class="bi bi-images"></i> THƯ VIỆN ẢNH
+              </div>
+              <!-- Main-4 -->
+              <div class="col bg-mycolor" id="main-4">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/img_1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/img_2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/img_3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/img_4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/img_5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <!-- Main-5 -->
+              <div class="col" id="main-5">
+                <a href="https://chinhphu.vn/"><img src="images/logo_1.png" alt=""></a>
+                <a href="https://vast.gov.vn/"><img src="images/logo_2.png" alt=""></a>
+                <a href="http://ioit.ac.vn/phong-thi-nghiem-trong-diem"><img src="images/logo_3.png" alt=""></a>
+                <a href="https://hoithaoquocgiacntt.ac.vn/"><img src="images/logo_4.png" alt=""></a>
+                <a href="https://vjs.ac.vn/index.php/jcc"><img src="images/logo_5.png" alt=""></a>
+              </div>
+              <!-- Title-3 -->
+              <div class="col bg-primary" id="title-3">
+                <i class="bi bi-app-indicator"></i> SẢN PHẨM
+              </div>
+              <!-- Main-6 -->
+              <div class="col bg-mycolor" id="main-6">
+                <a href="#"><img src="images/sp_1.png" alt=""></a>
+                <a href="#"><img src="images/sp_2.png" alt=""></a>
+                <a href="#"><img src="images/sp_3.png" alt=""></a>               
+              </div>
+            </div>  
+          </div>
+
+
+          <div class="col-2 bg-mycolor"></div>      
+        </div>
+
+
+          <!-- CUỐi TRANG -->
+        <div class="row" id="header-bottom">
+            <div class="col-2">.</div>
+            <div class="col d-flex">
+              <div class="col" id="menu-bot">
+                <nav>
+                  <ul>
+                    <li><a href="#">Trang chủ</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#">Phòng Thí nghiệm trọng điểm</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#">Tuyển dụng</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#">hình ảnh</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#">Video Clips</a></li>
+                  </ul>
+                  <ul>
+                    <li><a href="#">Hỏi đáp</a></li>
+                  </ul>
+                  <p>Viện Công nghệ thông tin</p>
+                  <b><p>Địa chỉ: 18 Hoàng Quốc Việt - Phường Nghĩa Đô - Quận Cầu Giấy - Hà Nội</p></b>
+                  <b><p>Điện thoại: (84-4) 3 756 4405; 3 756 4697 Fax: (84-4) 3 756 4217</p></b>
+                  <b><p>Mọi thông tin góp ý vui lòng liên hệ theo email: vanthu@ioit.ac.vn</p></b>
+                  <b><p>© 2016 Bản quyền thuộc Viện Công nghệ thông tin</p></b>
+                </nav>
+              </div>
+              <div class="col-4 d-flex">
+                <div class="col-5" id="connect">
+                  <ul>
+                    <p>KẾT NỐI</p>
+                    <li><i class="bi bi-facebook"></i><a href="#">Facebook</a></li>
+                    <li><i class="bi bi-google"></i><a href="#">Google+</a></li>
+                    <li><i class="bi bi-youtube"></i><a href="#">Youtube</a></li>
+                  </ul>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6522091192046!2d105.79932921473183!3d21.04659758598869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab6ac8124c2d%3A0xa1889aa17cf3eb57!2zVmnhu4duIENOVFQ!5e0!3m2!1svi!2s!4v1655133644719!5m2!1svi!2s" width="120" height="60" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col" id="link-web">
+                  <ul>
+                    <p>LIÊN KẾT WEBSITE</p>
+                    <div class="dropup-center dropup">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropupCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
+                        Liên kết website
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropupCenterBtn">
+                        <li><a class="dropdown-item" href="http://www.most.gov.vn/vn/Pages/Trangchu.aspx">Bộ Khoa học và Công nghệ</a></li>
+                        <li><a class="dropdown-item" href="https://moit.gov.vn/">Bộ Công thương</a></li>
+                        <li><a class="dropdown-item" href="https://www.mic.gov.vn/mic_2020/Pages/trangchu_2020.aspx">Bộ Thông tin và Truyền thông</a></li>
+                        <li><a class="dropdown-item" href="https://www.mt.gov.vn/vn/Pages/Trangchu.aspx">Bộ Giao thông vận tải</a></li>
+                        <li><a class="dropdown-item" href="https://moet.gov.vn/Pages/home.aspx">Bộ Giáo dục và Đào tạo</a></li>
+                      </ul>
+                    <b><p>Đang truy cập: 1.870</p></b>
+                    <b><p>Tổng số đã truy cập: 2.683.716</p></b>
+                    <b><p>Số tin bài đã nhập: 1.016</p></b>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-2">.</div>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
